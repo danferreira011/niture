@@ -10,7 +10,7 @@ variable "fingerprint" {}
 variable "private_key" {}
 variable "ssh_public_key" {}
 
-provider "oci" {
+provider "oracle/oci" {
   tenancy_ocid = var.tenancy_ocid
   user_ocid = var.user_ocid
   fingerprint = var.fingerprint
